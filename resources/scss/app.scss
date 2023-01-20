@@ -1,1 +1,125 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+
+header {
+  padding: 1.2rem 0;
+  img{
+    width: 90px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+
+    &:hover {
+      color: blue;
+    }
+  }
+}
+
+.my-section{
+  background-image: url("../images/jumbotron.jpg");
+  height: 400px;
+  background-position: top;
+  background-size: cover;
+}
+
+.other-section{
+  background-color: #1c1c1c;
+  padding: 2rem 0;
+  .current-series{
+   display: inline;
+   position: relative;
+   bottom: 48px;
+   
+  }
+  
+  .my-imgs{
+   
+   img{
+     width: 100%;
+     height:200px;
+     object-fit: cover;
+     object-position: top;
+     opacity: 0.5;
+
+     &:hover{
+       opacity: 1;
+     }
+   }
+  }
+  .my-btn{
+   background-color: #0282f9;
+   color: white;
+   padding: 0.5rem 4rem;
+   font-weight: 600;
+  }
+}
+
+.section-merchandise{
+  background-color: #0282f9;
+  padding: 2.5rem 0;
+  
+  a{
+    color: white;
+    text-decoration: none;
+
+    img{
+      width: 40px;
+    }
+  }
+  .tablet{
+    width: 35px;
+  }
+  .visa{
+    width: 47px;
+  }
+  .carte{
+    width: 48px;
+  }
+  .maglietta{
+    width: 45px;
+  }
+  .mappa{
+    width: 30px;
+  }
+}
+
+.footer-section{
+  background-image: url("../images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+  a{
+    text-decoration: none;
+    color: rgb(137, 137, 137);
+    font-size: medium;
+  }
+  
+  .logo{
+    background-image: url("../images/dc-logo-bg.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: right;
+    
+  }
+}
+
+.down-footer{
+  padding: 2rem 0;
+  background-color: #303030;
+  span{
+    color: #0676d6;
+    font-weight: 700;
+  }
+
+  button{
+    color: white;
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid #0877de;
+  }
+}
