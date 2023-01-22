@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
 
     $comics = config("comics");
@@ -21,6 +22,8 @@ Route::get('/', function () {
         "comics" => $comics
     ]);
 })->name("home");
+
+
 
 Route::get('/comic/{id}', function ($id) {
 
