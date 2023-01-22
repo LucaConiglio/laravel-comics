@@ -21,7 +21,6 @@
             </div>
           </div >
           <div>
-            {{-- <h6 class="text-white">{{image.series}}</h6> --}}
             <h6 class="text-white">{{$comic['title']}}</h6>
           </div>
         </div>
